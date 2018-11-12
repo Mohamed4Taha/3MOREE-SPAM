@@ -26,11 +26,6 @@ channel.send(`فدرالي فدرالي فدرالي فدرالي فدرالي �
 
 
 
-
-
-
-
-
         var prefix = "$";
     client.on('message', message => {
   if (message.author.bot) return;
@@ -52,3 +47,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
  
  
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
